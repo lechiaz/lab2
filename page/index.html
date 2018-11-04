@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab2</title>
+    <style>
+        * {
+            font-family: Tahoma;
+            font-size: 11px;
+            margin: 10px;
+        }
+        ul,li{
+            font-family: consolas;
+        }
+        h1 {
+            font-family: Tahoma;
+            font-size: 25px;
+            font-variant: all-small-caps;
+            text-align: center;
+        }
+        .textBold{
+            font-weight: bold;
+        }
+        .textcolor{
+            color: red;
+        }
+        .textcolor[title="reditalic"]{
+            font-style: italic;
+        }
+        .textcolor[title="bold"]{
+            font-weight: bold;
+        }
+        .textcolor[title="italicBlack"]{
+            font-style: italic;
+            color: black;
+        }.textcolor[title="underline"]{
+            color: blue;
+            text-decoration:underline;
+        }
+         div{
+             padding-top: 15px;
+         }
+        /*.thumbnail{*/
+        /*width: 400px;*/
+        /*border-radius: 10px;*/
+        /*}*/
+        img{
+            width: 400px;
+            border-radius: 10px;
+        }
+        #green{
+            text-decoration: underline;
+            color: green;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div><h1>BÀI TẬP LAB2</h1></div>
+    <div>Dear cả lớp,</div>
+    <div>
+        Cho đến hôm nay, lớp chúng ta đã có những tin mừng đầu tiên, đó là quỹ lớp đã được các
+        mạnh thường quân đóng góp. Như các bạn có thể thấy, bạn
+        <span class="textBold">
+        Nguyễn Thu Thuỷ
+    </span>(tức
+        <span class="textBold">Thuỷ Elmo</span>
+        )đã rất vui vẻ xung công 10k đầu tiên cho lớp, bạn còn thắc mắc với Quốc Anh rằng:
+        <span class="textcolor" title="italicBlack">"đóng cả tháng thì là bao nhiêu tiền?"</span> và tuyên bố
+        <span class="textcolor" title="italicBlack">"sẽ cố gắng cho lớp ăn tiêu thoải mái!".</span>
+        Có thể nói rằng, lớp chúng ta
+        <span class="textcolor" title="italic">rất cần</span>
+        những người như bạn Thuỷ, bạn đã góp phần không nhỏ để tạo ra một môi trường<span class="textcolor" id="green">xanh, sạch, đẹp, và lười làm bài tập.</span> Cả lớp cùng tặng
+        <span class="textcolor" title="bold">like</span>
+        và
+        <span class="textcolor" title="bold">cố gắng noi gương</span>
+        bạn Thuỷ nhé!
+    </div>
+    <div class="thumbnail"><img src="http://sv1.upsieutoc.com/2018/10/31/a1.th.png" alt=""></div>
+    <div>Về phần bài tập lab1, các bạn đã được làm các tài liệu html hết sức cơ bản, sử dụng thẻ link và
+        một số thẻ html cơ bản, làm quen với các thẻ meta, biết cách hiển thị các ký tự đặc biệt trong
+
+        html, cũng như thêm ảnh vào page của mình. Nội dung được tóm lược như bên dưới.</div>
+    <div>
+        <ul>
+            <li>Write simple HTML documents.</li>
+            <li>Use Hyperlinks.</li>
+            <li>Use <span class="textcolor" title="italic">< meta ></span> tag.</li>
+            <li>Use special characters in HTML.</li>
+            <li>Use Basic Tags.</li>
+            <li>Insert Images.</li>
+        </ul>
+    </div>
+    <div>
+        Bên cạnh đó các bạn cũng được hướng dẫn sử dụng<span class="textcolor" title="underline">github</span>và setup môi trường để có thể đưa
+        sản phẩm lên<span class="textcolor" title="underline">Google App Engine.</span>Nên nhớ, những thông tin về git các bạn được học trong thứ
+        bảy vừa rồi là hết sức cơ bản, chúng ta sẽ còn nói tiếp về chủ đề này trong các buổi sau.
+    </div>
+    <div>
+        Về bài tập hôm nay, thay vì code lại những thứ có sẵn như lab1, chúng ta sẽ làm một page
+        được thiết kế sẵn trong đó sử dụng các thẻ theo yêu cầu. Nhiệm vụ của các bạn bao gồm:
+    </div>
+    <ul>
+        <li>Tìm hiểu các thẻ sau:</li>
+        <ul>
+            <li>để hiển thị danh sách.</li>
+        </ul>
+        <ul>
+            <li><span class="textcolor">< a ></span>và cách đặt link gửi mail bằng thẻ<span class="textcolor">< a ></span></li>
+        </ul>
+        <ul>
+            <li>Các thẻ<span class="textcolor" title="reditalic">< strong >, < em >, < b >, < i >, < p >, < h1 >, < pre >.</span></li>
+        </ul>
+        <ul>
+            <li>Trường hợp thẻ , text bên trong luôn được chuyển thành chữ hoa với thuộc tính<span class="textcolor">text-transform.</span></li>
+        </ul>
+        <li>Tạo thư mục day2 trong project html sẵn có, tạo file html với tên là<span class="textcolor" title="reditalic">my-lab2.html</span>.</li>
+        <li>File<span class="textcolor" title="reditalic">my-lab2.html</span>hiển thị đúng nội dung trong tài liệu các bạn đang đọc từ trên xuống dưới).</li>
+        <li>Font chữ mặc định:<span class="textcolor" title="reditalic">Tahoma</span>, cỡ chữ <span class="textcolor" title="reditalic">11px</span>.</li>
+        <li>Text trong thẻ<span class="textcolor" title="reditalic">< ul >, < li ></span>dùng font chữ<span class="textcolor" title="reditalic">consolas</span>.</li>
+        <li>Các link khi click vào sẽ đưa người dùng sang một tab mới và không đóng tab cũ.</li>
+        <li>Các text là code có màu đỏ, chữ in nghiêng.</li>
+        <li>Đưa bài tập lên github và Google App Engine trước ngày thứ 5.</li>
+        <li class="textcolor" title="reditalic">Style được đưa ra file css riêng.</li>
+    </ul>
+    <div>Nếu có bất kỳ thắc mắc gì, vui lòng gửi mail để nhận support<a href="http://google.com.vn" target="_blank" >tại đây.</a> (Link này sẽ thực hiện gửi mail).</div>
+</div>
+
+</body>
+</html>
